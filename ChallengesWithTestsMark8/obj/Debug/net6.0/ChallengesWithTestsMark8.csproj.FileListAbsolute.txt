@@ -1,0 +1,4 @@
+C:\_Git\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Git\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.AssemblyInfoInputs.cache
+C:\_Git\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.AssemblyInfo.cs
+C:\_Git\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.csproj.CoreCompileInputs.cache
