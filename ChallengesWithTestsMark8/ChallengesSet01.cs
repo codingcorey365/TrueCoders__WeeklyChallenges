@@ -23,17 +23,17 @@ namespace ChallengesWithTestsMark8
 
         public int Add(int number1, int number2)
         {
-            throw new NotImplementedException();
+            return number1 + number2;
         }
 
         public int GetSmallestNumber(int number1, int number2)
         {
-            throw new NotImplementedException();
+            return Math.Max(number1, number2);
         }
 
         public long Multiply(long factor1, long factor2)
         {
-            throw new NotImplementedException();
+            return factor1 * factor2;
         }
 
         public string GetGreeting(string nameOfPerson)
