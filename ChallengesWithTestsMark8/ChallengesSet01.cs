@@ -28,7 +28,7 @@ namespace ChallengesWithTestsMark8
 
         public int GetSmallestNumber(int number1, int number2)
         {
-            return Math.Max(number1, number2);
+            return Math.Min(number1, number2);
         }
 
         public long Multiply(long factor1, long factor2)
