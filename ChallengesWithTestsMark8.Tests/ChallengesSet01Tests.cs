@@ -20,7 +20,7 @@ namespace ChallengesWithTestsMark8.Tests
             // Arrange
             ChallengesSet01 challenger = new ChallengesSet01();
 
-            // Act
+            // Actual
             bool actual = challenger.AreTwoNumbersTheSame(number1, number2);
 
             // Assert
