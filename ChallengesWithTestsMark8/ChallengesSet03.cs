@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text.RegularExpressions;
 
@@ -7,17 +8,49 @@ namespace ChallengesWithTestsMark8
 {
     public class ChallengesSet03
     {
+
+        // Quetion #1
+
+        // Given an array of values,
+        // search the array and see if there is a false
+        //*********************************************
+
+        //*********************************************
         public bool ArrayContainsAFalse(bool[] vals)
-        {
-            if (vals.Contains(false))
-            {
-                return true;
+        {                               
+            if (vals.Contains(false))   
+            {                           
+                return true;            
             }
-            else
-            {
-                return false;
-            }
+            else                         
+            {                           
+                return false;           
+            }                           
         }
+        //--------------- Review Answer -------   
+        //                                        
+        //  if (vals == null)                     
+        //  {                                     
+        //   return false                         
+        //  }                                     
+        //    foreach(var item in vals)           
+        //     {                                  
+        //         if(item == false)              
+        //         {                              
+        //              return true;              
+        //         }                              
+        //     }                                  
+        //    return false;                       
+        //                                        
+        //--------------- Review Answer -------
+        //*********************************************
+
+
+        // Quetion #2
+
+        // Given an array of values,
+        // search the array and see if there is a false
+        //*********************************************
         public bool IsSumOfOddsOdd(IEnumerable<int> numbers)
         {
             // Used google and Chat GPT
@@ -36,26 +69,32 @@ namespace ChallengesWithTestsMark8
                 }
             }
             return sum % 2 != 0;
-
-            //-----------------------Frustrated I cant get a simple program to work with out google or chat gpt....
-
-            // this is the code that was not working
-            //int count = 0;
-            //foreach (int number in numbers)
-            //{
-            //    Check if the number is odd
-            //    if (number % 2 != 0)
-            //    {
-            //        int sum = count += number;
-            //        if (sum % 2 != 0)
-            //        {
-            //            return true;
-            //        }
-            //        else return false;
-            //    }
-            //    else return false;
-            //}
         }
+        //--------------------------------------------------
+        //Frustrated I cant get a simple program to work
+        //with out google or chat gpt....
+
+        // this is the code that was not working
+
+        //int count = 0;
+        //foreach (int number in numbers)
+        //{
+        //    Check if the number is odd
+        //    if (number % 2 != 0)
+        //    {
+        //        int sum = count += number;
+        //        if (sum % 2 != 0)
+        //        {
+        //            return true;
+        //        }
+        //        else return false;
+        //    }
+        //    else return false;
+        //}
+
+        //*********************************************
+
+
 
         public bool PasswordContainsUpperLowerAndNumber(string password)
         {
@@ -69,8 +108,31 @@ namespace ChallengesWithTestsMark8
             bool containsNumber = Regex.IsMatch(password, "[0-9]");
 
             return containsUpper && containsLower && containsNumber;
-        }
 
+            //--------------- Review Answer --------------------
+            //bool isLetter = false;
+            //bool isDigit = false;
+            //bool isUpper = false;
+
+            //foreach (var letter in password)
+            //{
+            //    if (char.IsLower(letter))
+            //    {
+            //        isLetter = true;
+            //    }
+            //    if (char.IsDigit(letter))
+            //    {
+            //        isDigit = true;
+            //    }
+            //    if (char.IsUpper(letter))
+            //    {
+            //        isUpper = true;
+            //    }
+            //}
+
+            //return isUpper && isLetter && isDigit;
+            ////--------------- Review Answer --------------------
+        }
         public char GetFirstLetterOfString(string val)
         { 
             string word = val;

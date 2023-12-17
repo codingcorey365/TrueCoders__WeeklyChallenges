@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_Git\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\ChallengesWithTestsMark8.Tests.csproj": {}
+    "C:\\_Git\\repos\\TrueCoders\\_Challenge Sets\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\ChallengesWithTestsMark8.Tests.csproj": {}
   },
   "projects": {
-    "C:\\_Git\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\ChallengesWithTestsMark8.Tests.csproj": {
+    "C:\\_Git\\repos\\TrueCoders\\_Challenge Sets\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\ChallengesWithTestsMark8.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Git\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\ChallengesWithTestsMark8.Tests.csproj",
+        "projectUniqueName": "C:\\_Git\\repos\\TrueCoders\\_Challenge Sets\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\ChallengesWithTestsMark8.Tests.csproj",
         "projectName": "ChallengesWithTestsMark8.Tests",
-        "projectPath": "C:\\_Git\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\ChallengesWithTestsMark8.Tests.csproj",
+        "projectPath": "C:\\_Git\\repos\\TrueCoders\\_Challenge Sets\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\ChallengesWithTestsMark8.Tests.csproj",
         "packagesPath": "C:\\Users\\Corey Schroeder\\.nuget\\packages\\",
-        "outputPath": "C:\\_Git\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\obj\\",
+        "outputPath": "C:\\_Git\\repos\\TrueCoders\\_Challenge Sets\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\_Git\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj": {
-                "projectPath": "C:\\_Git\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj"
+              "C:\\_Git\\repos\\TrueCoders\\_Challenge Sets\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj": {
+                "projectPath": "C:\\_Git\\repos\\TrueCoders\\_Challenge Sets\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\_Git\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj": {
+    "C:\\_Git\\repos\\TrueCoders\\_Challenge Sets\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Git\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj",
+        "projectUniqueName": "C:\\_Git\\repos\\TrueCoders\\_Challenge Sets\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj",
         "projectName": "ChallengesWithTestsMark8",
-        "projectPath": "C:\\_Git\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj",
+        "projectPath": "C:\\_Git\\repos\\TrueCoders\\_Challenge Sets\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj",
         "packagesPath": "C:\\Users\\Corey Schroeder\\.nuget\\packages\\",
-        "outputPath": "C:\\_Git\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\obj\\",
+        "outputPath": "C:\\_Git\\repos\\TrueCoders\\_Challenge Sets\\WeeklyChallenges\\ChallengesWithTestsMark8\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
