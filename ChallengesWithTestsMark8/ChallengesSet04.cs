@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace ChallengesWithTestsMark8
 {
@@ -23,7 +24,13 @@ namespace ChallengesWithTestsMark8
 
         public int GetLengthOfShortestString(string str1, string str2, string str3, string str4)
         {
-            throw new NotImplementedException();
+            int str1value = str1.Length;
+            int str2value = str2.Length;
+            int str3value = str3.Length;
+            int str4value = str4.Length;
+            int[] array = new int[] {str1value, str2value, str3value, str4value};
+            int min = array.Min();
+            return min;
         }
 
         public int GetSmallestNumber(int number1, int number2, int number3, int number4)
