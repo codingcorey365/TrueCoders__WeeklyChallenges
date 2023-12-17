@@ -6,7 +6,19 @@ namespace ChallengesWithTestsMark8
     {
         public int AddEvenSubtractOdd(int[] numbers)
         {
-            throw new NotImplementedException();
+            int sum = 0;
+            foreach (int number in numbers)
+            {
+                if (number % 2 == 0)
+                {
+                    sum += number;
+                }
+                else
+                {
+                    sum -= number;
+                }
+            }
+            return sum;
         }
 
         public int GetLengthOfShortestString(string str1, string str2, string str3, string str4)
