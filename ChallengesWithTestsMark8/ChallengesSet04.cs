@@ -109,13 +109,16 @@ namespace ChallengesWithTestsMark8
                 return true;
             }
             return false;
-            
-            
         }
 
         public bool IsStringANumber(string input)
         {
-            throw new NotImplementedException();
+            if (input == null)
+            {
+                return false;
+            }
+            var success = decimal.TryParse(input, out decimal result);
+            return success;
         }
 
         public bool MajorityOfElementsInArrayAreNull(object[] objs)
