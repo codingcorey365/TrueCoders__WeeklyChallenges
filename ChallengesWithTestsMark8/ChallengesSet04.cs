@@ -28,19 +28,76 @@ namespace ChallengesWithTestsMark8
             int str2value = str2.Length;
             int str3value = str3.Length;
             int str4value = str4.Length;
-            int[] array = new int[] {str1value, str2value, str3value, str4value};
+            int[] array = new int[] { str1value, str2value, str3value, str4value };
             int min = array.Min();
             return min;
         }
 
         public int GetSmallestNumber(int number1, int number2, int number3, int number4)
         {
-            throw new NotImplementedException();
-        }
+            int[] array = new int[] { number1, number2, number3, number4 };
+            int min = array.Min();
+            return min;
+        } 
 
         public void ChangeBusinessNameTo_TrueCoders(Business biz)
         {
-            throw new NotImplementedException();
+            switch (biz.Name)
+            {
+                case null:
+
+                    biz.Name = "TrueCoders";
+                    Console.WriteLine(biz.Name);
+                    break;
+
+                case "":
+
+                    biz.Name = "TrueCoders";
+                    Console.WriteLine(biz.Name);
+                    break;
+
+                case "true coders":
+
+                    biz.Name = "TrueCoders";
+                    Console.WriteLine(biz.Name);
+                    break;
+
+                case "truecoders":
+
+                    biz.Name = "TrueCoders";
+                    Console.WriteLine(biz.Name);
+                    break;
+
+                case "TRUECODERS":
+
+                    biz.Name = "TrueCoders";
+                    Console.WriteLine(biz.Name);
+                    break;
+
+                case "tRUEcODERS":
+
+                    biz.Name = "TrueCoders";
+                    Console.WriteLine(biz.Name);
+                    break;
+
+                case "test":
+
+                    biz.Name = "TrueCoders";
+                    Console.WriteLine(biz.Name);
+                    break;
+
+                default:
+                    biz.Name = "TrueCoders";
+                    break;
+            }
+
+            
+            
+            
+            
+            
+            
+            
         }
 
         public bool CouldFormTriangle(int sideLength1, int sideLength2, int sideLength3)
