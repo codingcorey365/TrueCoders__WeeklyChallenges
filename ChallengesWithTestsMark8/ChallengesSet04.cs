@@ -123,7 +123,25 @@ namespace ChallengesWithTestsMark8
 
         public bool MajorityOfElementsInArrayAreNull(object[] objs)
         {
-            throw new NotImplementedException();
+            //int objsLength = objs.Length;
+            int nullSum = 0;
+            int nonNullSum = 0;
+            foreach (var obj in objs)
+            {
+                if (obj == null)
+                {
+                     nullSum += 1;
+                }
+                else
+                {
+                     nonNullSum += 1;
+                }
+            }
+            if (nullSum > nonNullSum)
+            {
+                return true;
+            }
+            return false;
         }
 
         public double AverageEvens(int[] numbers)
