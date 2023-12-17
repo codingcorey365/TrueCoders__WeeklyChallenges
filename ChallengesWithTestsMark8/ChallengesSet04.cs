@@ -45,64 +45,72 @@ namespace ChallengesWithTestsMark8
             switch (biz.Name)
             {
                 case null:
-
                     biz.Name = "TrueCoders";
                     Console.WriteLine(biz.Name);
                     break;
-
                 case "":
-
                     biz.Name = "TrueCoders";
                     Console.WriteLine(biz.Name);
                     break;
-
                 case "true coders":
-
                     biz.Name = "TrueCoders";
                     Console.WriteLine(biz.Name);
                     break;
-
                 case "truecoders":
-
                     biz.Name = "TrueCoders";
                     Console.WriteLine(biz.Name);
                     break;
-
                 case "TRUECODERS":
-
                     biz.Name = "TrueCoders";
                     Console.WriteLine(biz.Name);
                     break;
-
                 case "tRUEcODERS":
-
                     biz.Name = "TrueCoders";
                     Console.WriteLine(biz.Name);
                     break;
-
                 case "test":
-
                     biz.Name = "TrueCoders";
                     Console.WriteLine(biz.Name);
                     break;
-
                 default:
                     biz.Name = "TrueCoders";
                     break;
             }
-
-            
-            
-            
-            
-            
-            
-            
         }
 
         public bool CouldFormTriangle(int sideLength1, int sideLength2, int sideLength3)
         {
-            throw new NotImplementedException();
+            // Zero and Negative Number check
+            if (sideLength1 <= 0 || sideLength2 <= 0 || sideLength3 <= 0)
+            {
+                return false;
+            }
+            
+            // All the same numbers
+            if (sideLength1 == sideLength2 && sideLength1 == sideLength3)
+            {
+                return true;
+            }
+
+            // Straight Line Condition
+            if (sideLength1 == sideLength2 + sideLength3 || sideLength2 == sideLength1 + sideLength3 || sideLength3 == sideLength1 + sideLength2)
+            {
+                return false;
+            }
+
+            // Bool initialize for comparison
+            var triangleOption1 = ((sideLength1 + sideLength2) > sideLength3);
+            var triangleOption2 = ((sideLength2 + sideLength3) > sideLength1);
+            var triangleOption3 = ((sideLength3 + sideLength1) > sideLength2);
+
+            // Is Bool?
+            if (triangleOption1 == true && triangleOption2 == true && triangleOption3 == true)
+            {
+                return true;
+            }
+            return false;
+            
+            
         }
 
         public bool IsStringANumber(string input)
