@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 
 namespace ChallengesWithTestsMark8
@@ -123,7 +124,7 @@ namespace ChallengesWithTestsMark8
 
         public bool MajorityOfElementsInArrayAreNull(object[] objs)
         {
-            //int objsLength = objs.Length;
+            
             int nullSum = 0;
             int nonNullSum = 0;
             foreach (var obj in objs)
@@ -146,12 +147,63 @@ namespace ChallengesWithTestsMark8
 
         public double AverageEvens(int[] numbers)
         {
-            throw new NotImplementedException();
+            if (numbers == null || numbers.Length == 0)
+            {
+                return 0;
+            }
+
+            double countNumberOfEvens = 0;
+            double sumOfAllTheEvenNumbers = 0;
+            double zero = 0;
+            foreach (double number in numbers)
+            {
+                if (number == null)
+                {
+                    return zero;
+                }
+
+                if (number % 2 == 0)
+                {
+                    countNumberOfEvens += 1;
+                    sumOfAllTheEvenNumbers += number;
+                }
+            }
+
+            if (countNumberOfEvens == 0)
+            {
+                return 0;
+            }
+            else
+            {
+                return sumOfAllTheEvenNumbers / countNumberOfEvens;
+            }
+
+            
         }
 
         public int Factorial(int number)
         {
-            throw new NotImplementedException();
+            var result = 1;
+            if (number < 0)
+            {
+                throw new ArgumentOutOfRangeException();
+            }
+            for (int i = number - 1;i > 0; i--)
+            {
+                if (number == i+1)
+                {
+                    result = number * i;
+                }
+                else
+                {
+                    result *= i;
+                }
+            }
+            return result;
+
+           
+            return 0;
         }
+        
     }
 }
