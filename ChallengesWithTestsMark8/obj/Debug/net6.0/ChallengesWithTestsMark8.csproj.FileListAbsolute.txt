@@ -26,3 +26,4 @@ C:\_Git\repos\TrueCoders\_Challenge Sets\WeeklyChallenges\ChallengesWithTestsMar
 C:\_Git\repos\TrueCoders\_Challenge Sets\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.pdb
 C:\_Git\repos\TrueCoders\_Challenge Sets\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.genruntimeconfig.cache
 C:\_Git\repos\TrueCoders\_Challenge Sets\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ref\ChallengesWithTestsMark8.dll
+C:\_Git\repos\TrueCoders\_Challenge Sets\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.sourcelink.json
